@@ -4,11 +4,18 @@ const items = ['Pencil', 'Notebook', 'yo-yo', 'Gum'];
 
 /* 
 
+*/
   //Given this problem: 
   
   function firstItem(arr, cb) {
-    // firstItem passes the first item of the given array to the callback function.
+// firstItem passes the first item of the given array to the callback function.
+    return cb(arr[3])
+    
+    
+
   }
+
+firstItem(items, console.log)
 
   // Potential Solution:
 
@@ -22,7 +29,6 @@ const items = ['Pencil', 'Notebook', 'yo-yo', 'Gum'];
     console.log(first)
   });
 
-*/
 
 
 function getLength(arr, cb) {

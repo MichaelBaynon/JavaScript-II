@@ -1,6 +1,16 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
 
+const passed = 12;
+
+const addTo = function (rn) {
+  const inner = 5;
+  return passed + inner + rn; 
+};
+
+console.log(addTo(17));
+
+addTo(17)
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
