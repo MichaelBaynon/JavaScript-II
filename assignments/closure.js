@@ -1,6 +1,14 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
 
+const king = 'henry';
+
+function myFunction(name) {
+  // name = king;
+  console.log(king);
+}
+myFunction();
+// console.log(myFunction(name));
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
